@@ -1,0 +1,12 @@
+<wap-provisioningdoc>
+<characteristic version="10.3" type="FileMgr">
+<parm name="FileAction" value="1" />
+<characteristic type="file-details">
+<parm name="TargetAccessMethod" value="2" />
+<parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Config.xml" />
+<parm name="IfDuplicate" value="1" />
+<parm name="SourceAccessMethod" value="2" />
+<parm name="SourcePathAndFileName" value="/sdcard/Config.xml" />
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>
