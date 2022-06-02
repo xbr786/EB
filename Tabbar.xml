@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+    <TabGroup>
+        <placeTabsBottom>false</placeTabsBottom>
+        <hiddenTabs>false</hiddenTabs>
+        <backgroundColor>false</backgroundColor>
+		    <Tab>
+                <action>https://techdocs.zebra.com/</action>
+                <label>Zebra Tech</label>
+                <disabled></disabled>
+                <reload>True</reload>
+                <config>/storage/emulated/0/Android/data/com.zebra.mdna.enterprisebrowser/Config.xml</config>
+            </Tab>
+            <Tab>
+                <action>https://www.google.com</action>
+                <label>Zebra Home</label>
+                <disabled></disabled>
+                <config>/storage/emulated/0/Android/data/com.zebra.mdna.enterprisebrowser/Config.xml</config>
+                <reload>True</reload>
+            </Tab>
+    </TabGroup>
