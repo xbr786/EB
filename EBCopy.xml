@@ -3,10 +3,34 @@
 <parm name="FileAction" value="1" />
 <characteristic type="file-details">
 <parm name="TargetAccessMethod" value="2" />
+<parm name="TargetPathAndFileName" value="/data/tmp/public/EnterpriseBrowser_SAP_signed_3.3.0.5.apk" />
+<parm name="IfDuplicate" value="1" />
+<parm name="SourceAccessMethod" value="1" />
+<parm name="SourceURI" value="&amp;#1272&amp;#127AB4nf2Ty0iFMiUAG2mNX5W5soWTLDyuDweGbeoMM/Shjdw6tHG77fQMdlfS/LDJTbihQMF7QCmVLgu/w2BsKZKtDg8zsuJxMKEICiCnKKGAwSq41YCjcxEtR/Zb31QNDvmrTXog28a1wrhfD7qu/4+hHVP18dGz8/PZ9RP46N1zVPs/LR7dC65lM01ZS3hDJQG1NFLezGYEjuRLR3/RxP7RvSyJkid6owEHPQzEbzIk3YedCEquxezVdpZETOxuwoBE0pkUG/8uPztPbO4tyr6m8+QYaUKGnx+c+YCV2aP/tMLu7Gl5FiQqiq9eTRBRLaxXQldg4tKn7Gd5cVUou5Q==" />
+</characteristic>
+</characteristic>
+<characteristic version="10.3" type="AppMgr">
+<parm name="Action" value="Install" />
+<parm name="APK" value="/data/tmp/public/EnterpriseBrowser_SAP_signed_3.3.0.5.apk" />
+</characteristic>  
+<characteristic version="10.3" type="FileMgr">
+<parm name="FileAction" value="1" />
+<characteristic type="file-details">
+<parm name="TargetAccessMethod" value="2" />
 <parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Config.xml" />
 <parm name="IfDuplicate" value="1" />
 <parm name="SourceAccessMethod" value="2" />
 <parm name="SourcePathAndFileName" value="/sdcard/Config.xml" />
+</characteristic>
+</characteristic>
+<characteristic version="10.3" type="FileMgr">
+<parm name="FileAction" value="1" />
+<characteristic type="file-details">
+<parm name="TargetAccessMethod" value="2" />
+<parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Tabbar.xml" />
+<parm name="IfDuplicate" value="1" />
+<parm name="SourceAccessMethod" value="2" />
+<parm name="SourcePathAndFileName" value="/sdcard/Tabbar.xml" />
 </characteristic>
 </characteristic>
 </wap-provisioningdoc>
