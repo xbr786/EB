@@ -137,7 +137,9 @@ EnterpriseBrowser_v3.3.0.5 Configuration file
 	  
       <General>
         <Name value="Menu"/>
-        <StartPage value="https://demos.milesdata.com/" name="Menu"/>
+        <StartPage value="https://www.zebra.com/us/en/support-downloads.html/" name="Menu"/>
+	<usetabbar value="1"/>
+	<tabbarxmlpath value="file://%PERSISTCONFDIR%/Tabbar.xml"/>      
       </General>
       
       <Scanner>
