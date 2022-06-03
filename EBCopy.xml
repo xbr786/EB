@@ -1,36 +1,56 @@
 <wap-provisioningdoc>
 <characteristic version="10.3" type="FileMgr">
-<parm name="FileAction" value="1" />
-<characteristic type="file-details">
-<parm name="TargetAccessMethod" value="2" />
-<parm name="TargetPathAndFileName" value="/data/tmp/public/EnterpriseBrowser_SAP_signed_3.3.0.5.apk" />
-<parm name="IfDuplicate" value="1" />
-<parm name="SourceAccessMethod" value="1" />
-<parm name="SourceURI" value="&amp;#1272&amp;#127AB4nf2Ty0iFMiUAG2mNX5W5soWTLDyuDweGbeoMM/Shjdw6tHG77fQMdlfS/LDJTbihQMF7QCmVLgu/w2BsKZKtDg8zsuJxMKEICiCnKKGAwSq41YCjcxEtR/Zb31QNDvmrTXog28a1wrhfD7qu/4+hHVP18dGz8/PZ9RP46N1zVPs/LR7dC65lM01ZS3hDJQG1NFLezGYEjuRLR3/RxP7RvSyJkid6owEHPQzEbzIk3YedCEquxezVdpZETOxuwoBE0pkUG/8uPztPbO4tyr6m8+QYaUKGnx+c+YCV2aP/tMLu7Gl5FiQqiq9eTRBRLaxXQldg4tKn7Gd5cVUou5Q==" />
-</characteristic>
+  <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/data/tmp/public/EnterpriseBrowser_SAP_signed_3.3.0.5.apk" />
+      <parm name="IfDuplicate" value="1" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127AB4nf2Ty0iFMiUAG2mNX5W5soWTLDyuDweGbeoMM/Shjdw6tHG77fQMdlfS/LDJTbihQMF7QCmVLgu/w2BsKZKtDg8zsuJxMKEICiCnKKGAwSq41YCjcxEtR/Zb31QNDvmrTXog28a1wrhfD7qu/4+hHVP18dGz8/PZ9RP46N1zVPs/LR7dC65lM01ZS3hDJQG1NFLezGYEjuRLR3/RxP7RvSyJkid6owEHPQzEbzIk3YedCEquxezVdpZETOxuwoBE0pkUG/8uPztPbO4tyr6m8+QYaUKGnx+c+YCV2aP/tMLu7Gl5FiQqiq9eTRBRLaxXQldg4tKn7Gd5cVUou5Q==" />
+    </characteristic>
 </characteristic>
 <characteristic version="10.3" type="AppMgr">
-<parm name="Action" value="Install" />
-<parm name="APK" value="/data/tmp/public/EnterpriseBrowser_SAP_signed_3.3.0.5.apk" />
+  <parm name="Action" value="Install" />
+  <parm name="APK" value="/data/tmp/public/EnterpriseBrowser_SAP_signed_3.3.0.5.apk" />
 </characteristic>  
+<characteristic version="10.1" type="FileMgr">
+  <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Config.xml" />
+      <parm name="IfDuplicate" value="1" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127ImymqTFkeNA6fho7E7wpgw+W/Wo/r+50w5PhVrCvBoV8J/dAB/qMadoihVofaQLEUqWBECrKSucXZ9U4cbqcZH8Gb3yaRZQjKgATgodJkiUdbq0tDIHMKVAADvPHNWh9nLqEan6ePOrCpcYeqe/jZLrAwGNouLqpnOwVZ+X47IMy09Jjw9EFufcLBcyd4z/UG1GyqckXPMsVKHHQ4EwEcEKFH6iX9PBpXNJvXWtVjNzrpx+gvHVsjF+6blym49WZ4XfTrlD1eIQrO0CyPOje9SDLnTxFYYtZ5UWPDIzoVZnwpwnAF/LBGpr6KFgEkHcZe5Eey2WEjgcaFirleperFQ==" />
+  </characteristic>
+</characteristic>
+<characteristic version="10.1" type="FileMgr">
+  <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Tabbar.xml" />
+      <parm name="IfDuplicate" value="1" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127S68BeDKzVa96c4/eWbKzOwy8KrsJMZ+5S/g8Jd6Pfs6zggNFKa22cTG9oWjt90EPA6pdD3+xkTI3A5DoM1f4z9AIS/xC/MvJ+W9lR7ZbFpj+XWkOmz9QTX5Qk30tzY2Zh5TeA+5QobZSgRf3ylf3DImSFWZLbjnDiV1+Y8wwDHJiokPdqSKPkZRl/4EBwDmWSv1tHCpGJlepQ1lcoL3jyEbl7wx8i7dgbWiUDKURF8agdVPSA9C3UygHdesPwvSyzInIlYJbQZbCbwFZ0hpFwsejQRdJreb4kYbJspFFutM/cMAWo/45OcfYpbmClwRbpqcBDV/KYC+Wi7fkHq3Mww==" />
+    </characteristic>
+</characteristic>
 <characteristic version="10.3" type="FileMgr">
-<parm name="FileAction" value="1" />
-<characteristic type="file-details">
-<parm name="TargetAccessMethod" value="2" />
-<parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Config.xml" />
-<parm name="IfDuplicate" value="1" />
-<parm name="SourceAccessMethod" value="2" />
-<parm name="SourcePathAndFileName" value="/sdcard/Config.xml" />
-</characteristic>
+  <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Config.xml" />
+      <parm name="IfDuplicate" value="1" />
+      <parm name="SourceAccessMethod" value="2" />
+      <parm name="SourcePathAndFileName" value="/sdcard/Config.xml" />
+  </characteristic>
 </characteristic>
 <characteristic version="10.3" type="FileMgr">
-<parm name="FileAction" value="1" />
-<characteristic type="file-details">
-<parm name="TargetAccessMethod" value="2" />
-<parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Tabbar.xml" />
-<parm name="IfDuplicate" value="1" />
-<parm name="SourceAccessMethod" value="2" />
-<parm name="SourcePathAndFileName" value="/sdcard/Tabbar.xml" />
-</characteristic>
+  <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/device/enterprisebrowser/Tabbar.xml" />
+      <parm name="IfDuplicate" value="1" />
+      <parm name="SourceAccessMethod" value="2" />
+      <parm name="SourcePathAndFileName" value="/sdcard/Tabbar.xml" />
+  </characteristic>
 </characteristic>
 </wap-provisioningdoc>
